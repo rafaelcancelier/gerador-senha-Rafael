@@ -43,16 +43,16 @@ function geraSenha() {
 
     }
 
-    if (checked[1].checked) {
-        alfabeto = alabeto + letrasMinusculas;
+    if (checkbox[1].checked) {
+        alfabeto = alfabeto + letrasMinusculas;
     }
 
-    if (checked[2].checked) {
-        alfabeto = alabeto + numeros;
+    if (checkbox[2].checked) {
+        alfabeto = alfabeto + numeros;
     }
 
-    if (checked[3].checked) {
-        alfabeto = alabeto + simbolos;
+    if (checkbox[3].checked) {
+        alfabeto = alfabeto + simbolos;
     }
 
     let senha = '';
